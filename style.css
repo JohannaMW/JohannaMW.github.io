@@ -1,12 +1,19 @@
 * {
     margin : 0;
-    background-image:url("/home/johanna/aboutme/statics/images.jpg");
+    background-image : url("/home/johanna/aboutme/statics/images.jpg");
+    font-family : "Courier New", Courier, monospace;
+    font-size : 20px
+    }
+h1 {
+    font-size : 40px;
     }
 
 .pic {
     width : 100%;
-    height : 300px;
-    margin-top : 50px
+    height : 500px;
+    margin-top : 50px;
+    border-top : 20px solid black;
+    border-bottom : 20px solid black
 }
 
 .metext li, p{
@@ -14,11 +21,18 @@
     text-align : center;
 }
 
+.metext p{
+    margin-top : 20px
+}
+
 .gallery img {
     width : 200px;
     height : 200px;
     float :left;
     margin : 10px 10px 10px 10px;
+    border : 10px solid #E0E0E0;
+    border-radius : 25px;
+    box-shadow: 5px 5px 5px #888888
 }
 
 .gallery {
@@ -26,4 +40,16 @@
     margin-left: auto;
     margin-right: auto;
     width: 50em
+}
+
+.headings {
+    margin-top: 40px;
+    text-align : center
+}
+
+footer p {
+    clear : both;
+    padding-top : 100px;
+    padding-bottom : 10px;
+    background-color : black
 }
