@@ -1,0 +1,2 @@
+#ignore all .xml files automatically created by PyCharm
+*.xml
